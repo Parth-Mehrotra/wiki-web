@@ -1,0 +1,7 @@
+This week I successfully got the dump file to download. I can queary it and find out wether it exists and if it does, how many views it had for that hour. I don't want to make the user download the file everytime they want to use the application but I'm running into some bugs when I try to reference the file that already exists. Over this weekend, I'll do alot of planning so I can finally add the graphics. I also implemented filters into the search logic to exclude things like images, or Wikipedia's infamous "citation-needed" link.
+
+To run this project:
+There are two main classes. One that retrieves all the links (Tester_WikiSearch) this works flawlessly (thus far) and takes into account some filters, the other attempts to download the dump file and remove the non english portions and give information back.
+-(Tester_WikiSearch) ready -  get's the links from the articles
+-(Tester_DownloadStatisticProvider) almost ready - get's download information.
+-(Runner) comming soon - graphical element.
